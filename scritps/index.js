@@ -2,6 +2,7 @@ import Home from './home.js';
 import Menu from './menu.js';
 import Navbar from './navbar.js';
 import Contact from './contact.js';
+import Appetizers from './appetizers.js'
 
 const Index = () => {
   function italicsBody() {
@@ -19,6 +20,7 @@ const Index = () => {
   
   const menu = Menu();
   const contact = Contact();
+  const appetizers = Appetizers();
   
   const link1 = document.getElementById('home');
   link1.addEventListener('click', () => {
@@ -34,6 +36,11 @@ const Index = () => {
   link3.addEventListener('click', () => {
     content.replaceChild(contact, content.childNodes[1]);
   });  
+
+  const link4 = document.getElementById('appetizers');
+  link4.addEventListener('click', () => {
+    content.replaceChild(appetizers, content.childNodes[1]);
+  }); 
 };
 
 export default Index;

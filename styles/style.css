@@ -74,3 +74,53 @@ body {
   text-shadow: black 2px 2px;
   font-size: 50px;
 }
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.item-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+#appetizer1 {
+  background-image: url('/imgs/eggs.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 120px;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
+
+#appetizer2 {
+  background-image: url('/imgs/guacamole.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 120px;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
+
+#appetizer3 {
+  background-image: url('/imgs/crostini.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 120px;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
