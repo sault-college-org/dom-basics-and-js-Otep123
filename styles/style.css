@@ -75,6 +75,7 @@ body {
   font-size: 50px;
 }
 
+/* PART 1 */
 .container-flex {
   display: flex;
   flex-direction: column;
@@ -86,6 +87,18 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin: auto;
+}
+
+.appetizer-list {
+  padding: 0;
+  margin: auto 40px;
+}
+
+.appetizer-list-item {
+  display: flex;
+  flex-direction: row;
+
   margin: auto;
 }
 
@@ -123,4 +136,8 @@ body {
   color: white;
   text-shadow: black 2px 2px;
   font-size: 50px;
+}
+
+.appetizer-text {
+  margin: auto 40px;
 }
